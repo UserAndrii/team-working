@@ -1,11 +1,11 @@
 {
-  "name": "parcel-project-template",
+  "name": "team-working",
   "version": "2.0.0",
   "description": "",
-  "homepage": "https://goitacademy.github.io/parcel-project-template",
+  "homepage": "https://UserAndrii.github.io/team-working",
   "scripts": {
     "start": "parcel src/*.html",
-    "build": "parcel build src/*.html --public-url /parcel-project-template/"
+    "build": "parcel build src/*.html --public-url /team-working/"
   },
   "repository": {
     "type": "git",
