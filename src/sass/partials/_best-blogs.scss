@@ -1,7 +1,7 @@
 
 .best-blogs {
    font-family: 'Gilroy';
-   // width: 1400px;
+   text-align: center;
    
 }
 
@@ -11,15 +11,16 @@
    text-align: center;
 }
 
-.best-blogs p {
+.best-blogs .text {
    font-size: 18px;
    line-height: 135.94%;
+   text-align: left;
+
    text-align: center;
 }
 
 .section-select-your-gift {
    display: flex;
-   justify-content: center;
    width: 1440px;
    margin-left: auto;
    margin-right: auto;
@@ -29,10 +30,11 @@
 }
 
 .discription {
-   
+
    text-align: left;
    padding-top: 63px;
    padding-left: 78px;
+   padding-right: 200px;
 }
 
 .bestblogs-name {
