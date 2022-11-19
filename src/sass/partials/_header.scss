@@ -1,0 +1,54 @@
+.head-position {
+  display: flex;
+  align-items: baseline;
+
+  padding-top: 31px;
+  padding-bottom: 23px;
+}
+
+.head-logo {
+  margin-left: 80px;
+  margin-bottom: 38px;
+
+  font-family: 'Homemade Apple';
+  font-size: 18px;
+  line-height: 2.1;
+
+  color: $mainTextColor;
+}
+.site-nav {
+  display: flex;
+
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.nav-list {
+  display: flex;
+}
+.nav-item:not(:first-child) {
+  margin-left: 31px;
+}
+
+.nav-link {
+  font-family: 'Gilroy';
+  font-size: 18px;
+  line-height: 1.2;
+
+  color: $mainTextColor;
+}
+
+.head-btn {
+  margin-right: 40px;
+  padding: 13px 20px;
+
+  border: 1px solid $accentColor;
+  border-radius: 5px;
+
+  font-family: 'Gilroy';
+  font-size: 18px;
+  line-height: 1.2;
+  color: $accentColor;
+  text-align: center;
+  text-transform: uppercase;
+}
