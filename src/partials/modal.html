@@ -1,0 +1,39 @@
+<div class="backdrop is-hidden" data-modal>
+  <div class="modal-window">
+    <button type="button" class="close-button" data-modal-close>X</button>
+
+    <form class="modal-info js-speaker-form" autocomplete="off">
+      <h2 class="modal-title">Leave your details</h2>
+
+      <label class="modal-label" for="name">Name</label>
+      <input class="input-field" type="text" name="name" id="name" autofocus />
+
+      <label class="modal-label" for="tel">Phone</label>
+      <input class="input-field" type="tel" name="tel" id="tel" />
+
+      <label class="modal-label" for="comment">Comment</label>
+      <textarea
+        class="input-field comment"
+        name="comment"
+        id="comment"
+        placeholder="Введіть текст"
+      ></textarea>
+
+      <label class="cosent-text">
+        <input class="checkbox" type="checkbox" name="consent" />
+        <span>
+          I agree and accept
+          <a
+            class="conditions"
+            href="#"
+            target="_blank"
+            rel="noopener noreferrer"
+            >Terms of the contract</a
+          >
+        </span>
+      </label>
+
+      <button type="submit" class="hero-buttom btn-submit">Send</button>
+    </form>
+  </div>
+</div>
