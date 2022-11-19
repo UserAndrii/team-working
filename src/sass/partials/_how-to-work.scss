@@ -1,0 +1,44 @@
+.we-work {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: flex-end;
+}
+
+.we-work-text {
+  padding-top: 164px;
+  padding-left: 112px;
+  width: 441px;
+}
+
+.we-work .we-work-title {
+  font-size: 32px;
+  line-height: calc(45 / 32);
+}
+
+.work-text {
+  margin-top: 23px;
+  font-size: 20px;
+  line-height: calc(28 / 20);
+  text-align: justify;
+}
+
+.we-work-button {
+  margin-top: 35px;
+  width: 200px;
+  height: 60px;
+  border: 1px solid $accentColor;
+  border-radius: 5px;
+  font-size: 18px;
+  line-height: calc(24 / 18);
+
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+  color: $accentColor;
+}
+
+.we-work-button:focus,
+.we-work-button:hover {
+  background-color: $accentColor;
+  color: $mainWhiteColor;
+}
