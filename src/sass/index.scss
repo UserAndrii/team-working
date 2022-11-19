@@ -5,9 +5,8 @@
 @import './base/reset';
 @import './base/common';
 /* --------------------------------- partials -------------------------------- */
-@import './partials/example';
 
+@import './partials/hero';
 @import './partials/sign';
-
-/* --------------------------------- footer -------------------------------- */
+@import './partials/gifts-examples';
 @import './partials/footer';
