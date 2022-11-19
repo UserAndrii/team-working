@@ -1,2 +1,10 @@
-@import './common';
-@import './example';
+/* ---------------------------------- utils --------------------------------- */
+@import './utils/vars';
+@import './utils/hidden';
+/* ---------------------------------- base ---------------------------------- */
+@import './base/reset';
+@import './base/common';
+/* --------------------------------- partials -------------------------------- */
+@import './partials/example';
+
+@import './partials/sign';
