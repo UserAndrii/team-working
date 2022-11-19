@@ -1,0 +1,51 @@
+.bestway-list {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+}
+
+.bestway-item {
+    width: 570px;
+    padding-left: 48px;
+    padding-top: 48px;
+    padding-right: 48px;
+    padding-bottom: 50px;
+}
+
+.bestway-item:not(:last-child) {
+    margin-right: 30px;
+}
+
+.bestway-subtitle {
+    font-family: 'Gilroy', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 1.4;
+    text-align: left;
+    color: var($mainTextColor);
+}
+
+.bestway-text {
+    margin-top: 16px;
+    margin-bottom: 16px;
+    font-family: 'Gilroy', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.4;
+    text-align: left;
+    color: var($mainTextColor);
+}
+
+.bestway-link {
+    font-family: 'Gilroy', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.4;
+    text-align: left;
+    text-transform: capitalize;
+    text-decoration: none;
+    color: var($mainTextColor);
+}
