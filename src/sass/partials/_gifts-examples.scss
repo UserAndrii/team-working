@@ -1,3 +1,8 @@
+.link {
+  color: inherit;
+  text-decoration: none;
+  transition: all 250ms linear;
+}
 .link:hover,
 .link:focus {
   color: $accentColor;
@@ -39,6 +44,7 @@
 }
 .gifts-examples-item {
   background-color: $mainBgColor;
+  transition: all 250ms linear;
 }
 .gifts-examples-item:not(:last-child) {
   margin-right: 30px;
