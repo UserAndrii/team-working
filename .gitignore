@@ -107,3 +107,8 @@ dist
 
 # TernJS port file
 .tern-port
+src/sass/index.css.map
+src/sass/_foot-nav.scss
+src/sass/_foot-nav.scss
+src/sass/index.css
+src/sass/index.css.map
