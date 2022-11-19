@@ -24,7 +24,7 @@
     font-size: 24px;
     line-height: 1.4;
     text-align: left;
-    color: var($mainTextColor);
+    color: $mainTextColor;
 }
 
 .bestway-text {
@@ -36,7 +36,7 @@
     font-size: 18px;
     line-height: 1.4;
     text-align: left;
-    color: var($mainTextColor);
+    color: $mainTextColor;
 }
 
 .bestway-link {
@@ -48,5 +48,5 @@
     text-align: left;
     text-transform: capitalize;
     text-decoration: none;
-    color: var($mainTextColor);
+    color: $mainTextColor;
 }
