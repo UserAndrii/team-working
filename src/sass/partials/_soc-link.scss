@@ -1,6 +1,6 @@
 .soc-link {
-  margin-top: 55px;
-  margin-bottom: 72px;
+  padding-top: 55px;
+  padding-bottom: 72px;
 }
 
 .social-links {
@@ -25,14 +25,11 @@
   height: 100%;
   border-radius: 50%;
   color: $mainTextColor;
-  transition-property: color;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.social-link:hover,
-.social-link:focus {
-  color: $accentColor;
+  @include animate(color);
+  &:hover,
+  &:focus {
+    color: $accentColor;
+  }
 }
 
 .social-icon {

@@ -1,24 +1,21 @@
 .head-position {
   display: flex;
   align-items: baseline;
-
+  padding-left: 80px;
   padding-top: 31px;
   padding-bottom: 23px;
+  padding-right: 40px;
 }
 
 .head-logo {
-  margin-left: 80px;
   margin-bottom: 38px;
-
   font-family: 'Homemade Apple';
   font-size: 18px;
   line-height: 2.1;
-
   color: $mainTextColor;
 }
 .site-nav {
   display: flex;
-
   margin-left: auto;
   margin-right: auto;
 }
@@ -39,16 +36,20 @@
 }
 
 .head-btn {
-  margin-right: 40px;
   padding: 13px 20px;
-
   border: 1px solid $accentColor;
   border-radius: 5px;
-
   font-family: 'Gilroy';
   font-size: 18px;
   line-height: 1.2;
   color: $accentColor;
   text-align: center;
   text-transform: uppercase;
+  @include animate(color, background-color);
+  color: $accentColor;
+  &:focus,
+  &:hover {
+    background-color: $accentColor;
+    color: $mainWhiteColor;
+  }
 }
