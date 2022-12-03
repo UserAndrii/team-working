@@ -28,7 +28,6 @@
 }
 
 .nav-link {
-  font-family: 'Gilroy';
   font-size: 18px;
   line-height: 1.2;
 
@@ -39,7 +38,8 @@
   padding: 13px 20px;
   border: 1px solid $accentColor;
   border-radius: 5px;
-  font-family: 'Gilroy';
+
+  font-family: inherit;
   font-size: 18px;
   line-height: 1.2;
   color: $accentColor;
