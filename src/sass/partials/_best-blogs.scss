@@ -1,6 +1,7 @@
 
 .best-blogs {
    text-align: center;
+   padding-top: 88px;
 }
 
 .best-blogs h2 {
@@ -13,7 +14,8 @@
    font-size: 18px;
    line-height: 1.36;
    text-align: left;
-
+   margin-top: 23px;
+   margin-bottom: 88px;
    text-align: center;
 }
 
@@ -22,6 +24,7 @@
    width: 1440px;
    margin-left: auto;
    margin-right: auto;
+   margin-bottom: 40px;
 
    background-color: $secondaryBgColor;
    color: $mainWhiteColor;
