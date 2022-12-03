@@ -1,0 +1,54 @@
+
+.best-blogs {
+   text-align: center;
+   
+}
+
+.best-blogs h2 {
+   font-size: 32px;
+   line-height: 38px;
+   text-align: center;
+}
+
+.best-blogs .text {
+   font-size: 18px;
+   line-height: 1.36;
+   text-align: left;
+
+   text-align: center;
+}
+
+.section-select-your-gift {
+   display: flex;
+   width: 1440px;
+   margin-left: auto;
+   margin-right: auto;
+
+   background-color: $secondaryBgColor;
+   color: $mainWhiteColor;
+}
+
+.discription {
+
+   text-align: left;
+   padding-top: 63px;
+   padding-left: 78px;
+   padding-right: 200px;
+}
+
+.bestblogs-name {
+   font-size: 14px;
+   line-height: 1.4; 
+   margin-bottom: 27px;  
+}
+
+.bestblogs-text {
+   font-size: 48px;
+   line-height: 58px; 
+   margin-bottom: 60px;
+}
+
+.bestblogs-link {
+   font-size: 18px;
+   line-height: 1.4;
+}
